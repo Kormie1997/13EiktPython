@@ -21,7 +21,7 @@ def homerseklet():
     else:
         return "Legnemu halmazallapot."
     
-homerseklet = int(input("Kerek egy homerseklet erteket: "))
+homersekletC = int(input("Kerek egy homerseklet erteket: "))
 print(homerseklet())
 
 
