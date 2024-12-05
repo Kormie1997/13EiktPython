@@ -12,5 +12,17 @@ def homerseklet():
         print("Legnemu halmazallapot.")
 homerseklet()
 
+homersekletC = 0
+def homerseklet():
+    if homersekletC <= 0:
+        return "Szilard Halmazallapot."
+    elif homersekletC > 0 and homersekletC < 100:
+        return "Folyekony halmazallapot."
+    else:
+        return "Legnemu halmazallapot."
+    
+homerseklet = int(input("Kerek egy homerseklet erteket: "))
+print(homerseklet())
+
 
 
